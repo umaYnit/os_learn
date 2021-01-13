@@ -1,0 +1,19 @@
+[package]
+name = "bootloader"
+version = "0.1.0"
+authors = [""]
+edition = "2018"
+
+[[bin]]
+name = "bootloader"
+required-features = ["binary"]
+
+[dependencies]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+lto = false
+debug = true

@@ -1,0 +1,3 @@
+This is the first project I refer to. The assembly used in this project can be embedded in the Rust project directly .
+
+ I followed [this tutorial](https://os.phil-opp.com/minimal-rust-kernel/) to create a new project, and then modified the bootloader project, the first simple project can run well , But when it comes to the second one, it can't run and can't generate normal image file(very small file generated). I guess it is a link error.
